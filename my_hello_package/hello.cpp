@@ -1,6 +1,7 @@
 #include <iostream>
+#include "greeter.hpp"
 
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
+    std::cout << greet("Alice") << std::endl;
 }
